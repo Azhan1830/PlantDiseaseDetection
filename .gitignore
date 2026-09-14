@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorFlow
+*.h5
+*.hdf5
+*.ckpt
+*.keras
+
+# Dataset
+dataset/
+PlantVillage/
+processed_dataset/
+*.zip
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment files
+.env
+
+# Logs
+*.log

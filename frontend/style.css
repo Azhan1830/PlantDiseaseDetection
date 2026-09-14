@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+}
+
+
+/* Hero */
+
+.hero-section {
+    background: linear-gradient(135deg, #e8f5e9, #ffffff);
+    padding: 80px 0;
+}
+
+
+.hero-icon {
+    font-size: 150px;
+    text-align: center;
+}
+
+
+/* Detection Card */
+
+.detection-card {
+    border: none;
+    border-radius: 20px;
+}
+
+
+.upload-area {
+    border: 2px dashed #198754;
+    border-radius: 15px;
+    padding: 35px;
+    background: #f8fff9;
+    cursor: pointer;
+}
+
+
+.upload-area:hover {
+    background: #eefaf0;
+}
+
+
+.upload-label {
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.upload-icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+
+/* Preview */
+
+.preview-image {
+    width: 250px;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Result */
+
+.result-card {
+    background: #f1f8f3;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+
+.result-box {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+
+.result-box small {
+    color: #6c757d;
+}
+
+
+.info-box {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+
+.info-box h5 {
+    color: #198754;
+}
+
+
+/* Sections */
+
+.section-light {
+    background: #eaf6ec;
+}
+
+
+/* How It Works */
+
+.step-card {
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+.step-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .hero-icon {
+        font-size: 100px;
+        margin-top: 30px;
+    }
+
+}
