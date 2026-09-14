@@ -15,7 +15,7 @@ env/
 *.h5
 *.hdf5
 *.ckpt
-*.keras
+
 
 # Dataset
 dataset/
